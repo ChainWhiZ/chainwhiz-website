@@ -1,0 +1,126 @@
+.footer_section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.left_section,
+.right_section {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+.middle_section{
+display: inline-block;
+width: 40%;
+}
+.left_section {
+  padding-left: 5%;
+}
+.left_section_icon{
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+.left_section_icon img{
+    object-fit: fill;
+    height: inherit;
+    background-size: cover;
+    width: 75%;
+    vertical-align: middle;
+}
+.left_section_description_content {
+  margin-top: 4%;
+  letter-spacing: 0.01em;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144%;
+}
+
+.middle_section_left_segment, .middle_section_right_segment{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.middle_section_left_segment__content, .middle_section_right_segment__content{
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.01em;
+}
+
+.disabled{
+    cursor: not-allowed;
+    color: rgba(255, 255, 255, 0.479)
+}
+.right_section{
+
+    text-align: center;
+    vertical-align: middle;
+}
+.right_section_lower{
+    margin-top: -20%;
+}
+.right_section_lower img{
+    z-index: 1;
+    margin: 2%;
+}
+@media only screen and (max-width: 600px) {
+    .middle_section, .left_section, .right_section{
+        width: 100%;
+    }
+    .middle_section{
+        margin-bottom: 10%;
+    }
+    .left_section_icon{
+        display: none;
+    }
+    .left_section_description_content{
+        font-size: 1rem;
+    }
+    .middle_section_left_segment, .middle_section_right_segment{
+        display: block;
+        width: 100%;
+    }
+    .middle_section_left_segment__content, .middle_section_right_segment__content{
+        text-align: center;
+    }
+    .right_section_lower img{
+        margin: 2% 10%;
+    }
+    .disabled{
+        display: none;
+    }
+   
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .middle_section, .left_section, .right_section{
+        width: 100%;
+    }
+    .middle_section{
+        margin-bottom: 10%;
+    }
+    .left_section_icon{
+        display: none;
+    }
+    .left_section_description_content{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .middle_section_left_segment, .middle_section_right_segment{
+        display: block;
+        width: 100%;
+    }
+    .middle_section_left_segment__content, .middle_section_right_segment__content{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .right_section_lower img{
+        margin: 2% 10%;
+    }
+    .disabled{
+        display: none;
+    }
+  }

@@ -1,0 +1,212 @@
+/* Left Main Div STyle */
+.left_main_div {
+  display: inline-block;
+  width: 50%;
+  /* border: 2px solid white; */
+  padding: 5% 0;
+  padding-left: 5%;
+  padding-right: 0%;
+  vertical-align: middle;
+}
+
+/* Right Main Div STyle */
+.right_main_div {
+  display: inline-block;
+  width: 50%;
+}
+.right_main_div img {
+  background-size: cover;
+  width: 100%;
+  vertical-align: middle;
+}
+/* Left Header Style */
+.left_main_div__header {
+  letter-spacing: 0.01em;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 8vh;
+  margin-bottom: 5%;
+}
+
+.left_main_div__header_lower {
+  color: yellowgreen;
+}
+
+/* Left content style */
+
+.left_main_div__elements {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.2rem;
+  list-style-type: "✅";
+  padding-inline-start: 2ch;
+}
+
+.left_main_div__element {
+  padding-top: 5%;
+  font-weight: 500;
+  line-height: inherit;
+  padding-left: 2%;
+}
+
+/* Left button style */
+.left_main_div__buttons {
+  margin: 0;
+  padding: 0;
+  padding-top: 7.5%;
+}
+
+.left_main_div__button {
+  cursor: pointer;
+  padding: 1% 3.5%;
+  margin: 0 5%;
+  margin-left: -1%;
+  border-radius: 6px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+
+.highlighted {
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
+  color: black;
+}
+
+/* Divider Style */
+.divider_main {
+  /* height: 5vh; */
+  padding: 2%;
+  width: 100%;
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
+  text-align: center;
+}
+.divider_main__icon {
+  background: inherit;
+  font-size: 5vh;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4%;
+}
+.divider_main__content {
+  background: inherit;
+  display: inline-block;
+  vertical-align: middle;
+}
+.divider_main a{
+  background: inherit;
+}
+.divider_main__button {
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 4%;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.25% 2%;
+  line-height: 250%;
+  letter-spacing: 0.01em;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+/* For mobile and bigger screens */
+
+/*  */
+@media only screen and (max-width: 600px) {
+  .right_main_div {
+    display: none;
+  }
+  .left_main_div {
+    width: 100%;
+  }
+  .left_main_div__elements {
+    display: none;
+  }
+  .left_main_div__header {
+    margin-top: 25%;
+    font-size: 2rem;
+    line-height: 8vh;
+  }
+  .classes.left_main_div__button {
+    margin-top: 10%;
+  }
+
+  .left_main_div__button {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+  .divider_main,
+  .divider_main__content,
+  .divider_main__button {
+    display: none;
+  }
+  .divider_main__icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .right_main_div {
+    display: none;
+  }
+  .left_main_div {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1% 1%;
+  }
+  .left_main_div__elements {
+    display: none;
+  }
+  .left_main_div__header {
+    margin-top: 10%;
+    font-size: 2rem;
+    line-height: 10vh;
+  }
+  .left_main_div__element {
+    font-size: 1rem;
+  }
+  .classes.left_main_div__button {
+    margin-top: 10%;
+  }
+
+  .left_main_div__button {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+  .divider_main,
+  .divider_main__content,
+  .divider_main__button {
+    display: none;
+  }
+  .divider_main__icon {
+    display: none;
+  }
+}
+
+/*  */
+@media screen and (min-width: 1900px) {
+  .left_main_div__header {
+    font-size: 3.5rem;
+    line-height: 2.5vh;
+  }
+  .left_main_div__element {
+    font-size: 4rem;
+  }
+}

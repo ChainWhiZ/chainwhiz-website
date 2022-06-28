@@ -1,0 +1,90 @@
+.journey_upper_section {
+  padding: 7% 10%;
+  background: yellowgreen;
+  width: 100%;
+}
+/* Workaround to make the background greenish */
+.journey_upper_header,
+.journey_upper_description,
+.journey_upper_button__cont,
+.journey_upper_footnote p {
+  background: inherit;
+}
+.journey_upper_header__content {
+  color: black;
+  text-align: center;
+  background: inherit;
+  letter-spacing: 0.01em;
+  line-height: 38%;
+  font-weight: 700;
+  font-size: 3.25rem;
+}
+.journey_upper_description {
+  margin-top: 5%;
+}
+.journey_upper_description__content {
+  background: inherit;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.journey_upper_button__cont {
+  margin-top: 5%;
+  text-align: center;
+}
+.journey_upper_button__cont button {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 250%;
+  border-radius: 6px;
+  padding: 0.5% 2%;
+  letter-spacing: 0.025em;
+  line-height: 250%;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 7%;
+}
+
+.journey_upper_footnote {
+  background: inherit;
+  margin-top: 5%;
+}
+.journey_upper_footnote p {
+  color: black;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 286%;
+  letter-spacing: 0.01em;
+}
+.journey_down_section {
+  text-align: center;
+}
+.journey_down_section p {
+  display: inline-block;
+  margin: 5% 0;
+  width: 25%;
+  vertical-align: middle;
+}
+.journey_down_section p:first-child {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.bar {
+  background: yellowgreen;
+  height: 0.3vh;
+  border: 1px solid yellowgreen;
+}
+@media only screen and (max-width: 600px) {
+  .journey_main{
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .journey_main{
+      display: none;
+  }
+}

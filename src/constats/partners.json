@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Lumos labs",
+    "image": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs.png",
+    "banner": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs-cover.jpeg",
+    "bannerType": "image",
+    "description": "Lumos Labs is a Singapore-based innovation management firm that specializes in running technology open innovation programs.",
+    "discordLink": "",
+    "websiteLink": "https://www.lumoslabs.co/",
+    "twitterLink": "https://twitter.com/LabsLumos"
+  },
+  {
+    "name": "Dev Protocol",
+    "image": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol.png",
+    "banner": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol-cover.mp4",
+    "bannerType": "video",
+    "description": "Dev Protocol is the core of the Decentralized Creator Economy, completely on-chain, 100% composable middleware protocol.",
+    "discordLink": "https://discord.com/invite/VwJp4KM",
+    "websiteLink": "https://devprotocol.xyz/",
+    "twitterLink": "https://twitter.com/devprtcl"
+  },
+  {
+    "name": "Lumos labs",
+    "image": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs.png",
+    "banner": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs-cover.jpeg",
+    "bannerType": "image",
+    "description": "Lumos Labs is a Singapore-based innovation management firm that specializes in running technology open innovation programs.",
+    "discordLink": "",
+    "websiteLink": "https://www.lumoslabs.co/",
+    "twitterLink": "https://twitter.com/LabsLumos"
+  },
+  {
+    "name": "Dev Protocol",
+    "image": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol.png",
+    "banner": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol-cover.mp4",
+    "bannerType": "video",
+    "description": "Dev Protocol is the core of the Decentralized Creator Economy, completely on-chain, 100% composable middleware protocol.",
+    "discordLink": "https://discord.com/invite/VwJp4KM",
+    "websiteLink": "https://devprotocol.xyz/",
+    "twitterLink": "https://twitter.com/devprtcl"
+  }
+]

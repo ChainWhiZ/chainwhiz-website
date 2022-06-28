@@ -1,0 +1,94 @@
+.partners_main {
+    margin-top: 10%;
+  width: 100%;
+}
+
+.partners_header {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.partners_header p {
+  font-weight: 700;
+  font-size: 3.25rem;
+}
+
+.highlighted {
+  color: yellowgreen;
+}
+.carousel_main {
+  margin: 0 auto;
+}
+.carousel_item {
+  height: 70vh;
+  width: 90%;
+  margin-left: 6.5%;
+  display: inline-block;
+}
+.carousel_item__cover_cont {
+  height: 35vh;
+  margin: 2%;
+  border-radius: 6px;
+}
+.carousel_item__cover_img {
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  border-radius: 8px;
+}
+.carousel_item__cover_img:hover{
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+.carousel_item__profile_cont {
+  height: 20vh;
+  width: 20vh;
+  margin: 0 auto;
+  margin-top: -15%;
+}
+.carousel_item__profile_img {
+  border-radius: 50%;
+  height: inherit;
+  width: inherit;
+  z-index: 1;
+}
+.carousel_item__header {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.carousel_item__header p {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.carousel_item__content {
+  margin-top: 2.5%;
+  font-weight: 500;
+  font-size: 1.5;
+  padding: 0 5%;
+  text-align: center;
+}
+.carousel_item__socials {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2.5%;
+}
+.carousel_item__social_link {
+  display: inline-block;
+  padding-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .partners_main{
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .partners_main{
+        margin-top: 25%;
+    }
+}

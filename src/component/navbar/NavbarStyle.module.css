@@ -1,0 +1,79 @@
+.main_header {
+  width: 100%;
+}
+.main_header__icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  margin: 0 auto;
+}
+.main_nav__lists {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 75%;
+}
+.main_nav__ham {
+  display: none;
+}
+.main_nav__list {
+  display: inline-block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 12%;
+  letter-spacing: 0.03em;
+  font-size: 1.25rem;
+}
+
+.bar {
+  background: yellowgreen;
+  height: 0.3vh;
+  border: 1px solid yellowgreen;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_nav__ham {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .main_nav__lists .main_nav__list {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5%;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  .main_nav__ham {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+  .main_header__icon {
+    width: 20%;
+  }
+  .main_nav__list{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+  .main_nav__lists {
+    width: 70%;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-left: 2%;
+    vertical-align: middle;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .main_nav__lists .main_nav__list {
+    font-size: 4.5rem;
+  }
+}
