@@ -21,7 +21,7 @@
   margin: 0 auto;
   font-style: normal;
   font-weight: 300;
-  margin-left: 12%;
+  width: 20%;
   letter-spacing: 0.03em;
   font-size: 1.25rem;
 }
@@ -35,13 +35,19 @@
 @media only screen and (max-width: 600px) {
   .main_nav__ham {
     font-size: 2.5rem;
-    vertical-align: middle;
+    vertical-align: bottom;
     display: inline-block;
+  }
+  .main_header__icon{
+    height: inherit;
+    width: 25%;
+    vertical-align: bottom;
   }
   .main_nav__lists .main_nav__list {
     font-size: 1rem;
     display: block;
-    margin-bottom: 5%;
+    width: 100%;
+    margin-bottom: 2%;
     text-align: right;
   }
 }
@@ -49,21 +55,23 @@
 @media only screen and (max-width: 992px) {
   /* For mobile phones: */
   .main_nav__ham {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     vertical-align: middle;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     display: inline-block;
   }
-  .main_header__icon {
-    width: 20%;
+  .main_header__icon{
+    height: inherit;
+    width: 40%;
+    vertical-align: middle;
   }
   .main_nav__list{
     text-align: center;
     vertical-align: middle;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   .main_nav__lists {
-    width: 70%;
+    width: 50%;
     font-size: 1rem;
     margin: 0 auto;
     margin-left: 2%;
@@ -72,8 +80,3 @@
   }
 }
 
-@media screen and (min-width: 1900px) {
-  .main_nav__lists .main_nav__list {
-    font-size: 4.5rem;
-  }
-}
