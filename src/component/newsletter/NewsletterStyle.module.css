@@ -76,6 +76,11 @@
   .newsletter_header__content {
     font-size: 2rem;
   }
+  .bar {
+    background: yellowgreen;
+    height: 0.3vh;
+    border: 1px solid yellowgreen;
+  }
   .newsletter_right_section {
     display: none;
   }
@@ -83,6 +88,7 @@
     width: 100%;
   }
   .newsletter_left_section__description_content {
+    line-height: 2rem;
     text-align: center;
     font-size: 1rem;
   }
@@ -107,6 +113,11 @@
   .newsletter_header__content {
     font-size: 2rem;
   }
+  .bar {
+    background: yellowgreen;
+    height: 0.3vh;
+    border: 1px solid yellowgreen;
+  }
   .newsletter_right_section {
     display: none;
     vertical-align: middle;
@@ -115,6 +126,7 @@
     width: 100%;
   }
   .newsletter_left_section__description_content {
+    line-height: 2rem;
     text-align: center;
     font-size: 1rem;
   }

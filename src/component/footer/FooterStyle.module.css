@@ -77,14 +77,17 @@ width: 40%;
         display: none;
     }
     .left_section_description_content{
-        font-size: 1rem;
-    }
+        display: none;
+     }
     .middle_section_left_segment, .middle_section_right_segment{
         display: block;
         width: 100%;
     }
     .middle_section_left_segment__content, .middle_section_right_segment__content{
         text-align: center;
+    }
+    .right_section_lower{
+        margin-top: -15%;
     }
     .right_section_lower img{
         margin: 2% 10%;
@@ -106,8 +109,7 @@ width: 40%;
         display: none;
     }
     .left_section_description_content{
-        text-align: center;
-        font-size: 1rem;
+       display: none;
     }
     .middle_section_left_segment, .middle_section_right_segment{
         display: block;
@@ -116,6 +118,9 @@ width: 40%;
     .middle_section_left_segment__content, .middle_section_right_segment__content{
         text-align: center;
         margin-top: 5%;
+    }
+    .right_section_lower{
+        margin-top: -15%;
     }
     .right_section_lower img{
         margin: 2% 10%;

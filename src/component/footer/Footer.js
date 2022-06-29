@@ -5,6 +5,7 @@ import rightSectionLinks from "../../constats/footerRightLinks.json";
 const Footer = () => {
   return (
     <>
+      <hr></hr>
       <div className={classes.footer_section}>
         <div className={classes.left_section}>
           <div className={classes.left_section_icon}>

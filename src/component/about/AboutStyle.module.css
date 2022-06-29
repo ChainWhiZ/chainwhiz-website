@@ -170,7 +170,8 @@
   }
   .left_main_div__header {
     margin-top: 10%;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    padding: 0px 5.5%;
     line-height: 10vh;
   }
   .left_main_div__element {
@@ -188,7 +189,7 @@
     margin-top: 2.5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 15%;
   }
   .divider_main,
   .divider_main__content,
