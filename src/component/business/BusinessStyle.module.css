@@ -4,9 +4,11 @@
   width: 50%;
 }
 .left_main_div {
-  height: inherit;
   display: inline-block;
   width: 50%;
+  min-height: 100%;
+  overflow: hidden;
+  vertical-align: top;
 }
 .left_main_div img{
   background-size: cover;
@@ -45,13 +47,13 @@
   font-weight: 500;
   line-height: inherit;
   padding-left: 2%;
+  vertical-align: top;
 }
 
 .right_main_div__buttons {
   margin: 0;
   padding: 0;
   padding-top: 7.5%;
-  margin-bottom: 15%;
 }
 
 .right_main_div__button {
@@ -103,6 +105,7 @@
   letter-spacing: 0.01em;
   border-radius: 6px;
   border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
 }
 @media only screen and (max-width: 600px) {
   .left_main_div,

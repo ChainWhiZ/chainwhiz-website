@@ -29,7 +29,7 @@
 .bar {
   background: yellowgreen;
   height: 0.3vh;
-  border: 1px solid yellowgreen;
+  border: 2.5px solid yellowgreen;
 }
 
 @media only screen and (max-width: 600px) {
