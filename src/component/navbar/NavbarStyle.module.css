@@ -32,38 +32,18 @@
   border: 2.5px solid yellowgreen;
 }
 
-@media only screen and (max-width: 600px) {
-  .main_nav__ham {
-    font-size: 2.5rem;
-    vertical-align: bottom;
-    display: inline-block;
-    text-align: right;
-  }
-  .main_header__icon{
-    height: inherit;
-    width: 25%;
-    vertical-align: bottom;
-  }
-  .main_nav__lists .main_nav__list {
-    
-    font-size: 1rem;
-    display: block;
-    width: 100%;
-    margin-bottom: 2%;
-    text-align: right;
-    /* display: none; */
-  }
-}
 
 @media only screen and (max-width: 992px) {
   .main_header__icon {
     display: none;
   }
   .main_nav__ham{
+    display: block;
     width: 100%;
   }
   /* For mobile phones: */
   .main_nav__ham p{
+    width: 100%;
     font-size: 4.5rem;
     vertical-align: middle;
     text-align: right;
@@ -90,4 +70,25 @@
     font-size: 0.75rem;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .main_nav__ham {
+    font-size: 2.5rem;
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: right;
+  }
+  .main_header__icon{
+    height: inherit;
+    width: 25%;
+    vertical-align: bottom;
+  }
+  .main_nav__lists .main_nav__list {
+    
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+    text-align: right;
+    /* display: none; */
+  }
+}
