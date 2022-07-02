@@ -1,0 +1,16 @@
+.sidebar_main{
+    z-index: 1;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+
+.sidebar__lists{
+    margin: 0 auto;
+    text-align: center;
+}
+.sidebar__list{
+    margin-bottom: 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

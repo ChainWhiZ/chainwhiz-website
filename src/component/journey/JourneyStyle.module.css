@@ -76,16 +76,22 @@
 .bar {
   background: yellowgreen;
   height: 0.3vh;
-  border: 1px solid yellowgreen;
+  border: 1.6px solid yellowgreen;
 }
 @media only screen and (max-width: 600px) {
   .journey_main{
       display: none;
+  }
+  .bar{
+    display: block;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .journey_main{
       display: none;
+  }
+  .bar{
+    display: block;
   }
 }

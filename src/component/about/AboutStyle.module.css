@@ -144,7 +144,7 @@
     margin-top: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 11%;
   }
   .divider_main,
   .divider_main__content,
@@ -157,6 +157,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .left_main_div__header_lower{
+    margin-top: 7%;
+  }
   .right_main_div {
     display: none;
   }
@@ -170,8 +173,8 @@
     display: none;
   }
   .left_main_div__header {
-    margin-top: 10%;
-    font-size: 1.7rem;
+    margin-top: 20%;
+    font-size: 2.2rem;
     padding: 0px 5.5%;
     line-height: 10vh;
   }
@@ -179,13 +182,14 @@
     font-size: 1rem;
   }
   .classes.left_main_div__button {
+    margin-bottom: 11%;
     margin-top: 10%;
   }
 
   .left_main_div__button {
     width: 70%;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
     margin-top: 2.5%;
     padding-top: 2%;

@@ -7,13 +7,13 @@ const Newsletter = () => {
       <div className={classes.newsletter_main}>
         <div className={classes.newsletter_header}>
           <p className={classes.newsletter_header__content}>
-            Our Weekly Newsletter
+            Weekly Newsletter
           </p>
         </div>
         <div className={classes.newsletter_left_section}>
           <div className={classes.newsletter_left_section__description}>
             <p className={classes.newsletter_left_section__description_content}>
-              Can’t wait to buidl? Get Notified about the latest bounties and
+              Can’t wait to buidl? <br className={classes.break} />Get Notified about the latest <br className={classes.break}/>bounties and
               platform updates.
             </p>
           </div>

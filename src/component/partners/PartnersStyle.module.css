@@ -1,5 +1,5 @@
 .partners_main {
-    margin-top: 10%;
+  margin-top: 10%;
   width: 100%;
 }
 
@@ -39,7 +39,7 @@
   background-position: center;
   border-radius: 8px;
 }
-.carousel_item__cover_img:hover{
+.carousel_item__cover_img:hover {
   transition: 0.8s;
   transform: scale(1.2);
 }
@@ -82,13 +82,37 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .partners_main{
-        margin-top: 15%;
-    }
+  .partners_header {
+    margin-bottom: 20%;
+  }
+  .partners_main {
+    margin-top: 20%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    .partners_main{
-        margin-top: 25%;
-    }
+  .partners_header {
+    margin-bottom: 20%;
+  }
+  .carousel_item__header p{
+    font-size: 1.25rem;
+  }
+  .carousel_item__content{
+    margin-top: 7.5%;
+  }
+  .carousel_item__content p{
+    line-height: 1.6rem;
+  }
+  .carousel_item__socials{
+    margin-top: 7.5%;
+  }
+  .carousel_item__social_link{
+    transform: scale(0.7);
+  }
+  .partners_header p {
+    font-size: 2.25rem;
+  }
+  .partners_main {
+    margin-top: 20%;
+  }
 }

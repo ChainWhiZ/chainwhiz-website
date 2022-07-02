@@ -32,8 +32,8 @@ const Journey = () => {
            <p>Install Metamask</p>
            <p>Our Roadmap</p>
         </div>
-        <hr className={classes.bar}></hr>
       </div>
+      <hr className={classes.bar}></hr>
     </>
   );
 };

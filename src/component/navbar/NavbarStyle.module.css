@@ -37,6 +37,7 @@
     font-size: 2.5rem;
     vertical-align: bottom;
     display: inline-block;
+    text-align: right;
   }
   .main_header__icon{
     height: inherit;
@@ -44,19 +45,28 @@
     vertical-align: bottom;
   }
   .main_nav__lists .main_nav__list {
+    
     font-size: 1rem;
     display: block;
     width: 100%;
     margin-bottom: 2%;
     text-align: right;
+    /* display: none; */
   }
 }
 
 @media only screen and (max-width: 992px) {
+  .main_header__icon {
+    display: none;
+  }
+  .main_nav__ham{
+    width: 100%;
+  }
   /* For mobile phones: */
-  .main_nav__ham {
+  .main_nav__ham p{
     font-size: 4.5rem;
     vertical-align: middle;
+    text-align: right;
     /* vertical-align: bottom; */
     display: inline-block;
   }
@@ -65,18 +75,19 @@
     width: 40%;
     vertical-align: middle;
   }
+  .main_nav__lists {
+    /* Invalid as display is none */
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    display: none;
+  }
   .main_nav__list{
     text-align: center;
     vertical-align: middle;
     font-size: 0.75rem;
-  }
-  .main_nav__lists {
-    width: 50%;
-    font-size: 1rem;
-    margin: 0 auto;
-    margin-left: 2%;
-    vertical-align: middle;
-    text-align: right;
   }
 }
 
