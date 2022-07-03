@@ -48,7 +48,9 @@
   width: 100%;
   margin-bottom: 5%;
 }
+
 .newsletter_left_section__header_content {
+  cursor: pointer;
   margin-left: 15%;
   display: inherit;
   font-style: normal;
@@ -57,9 +59,25 @@
   text-align: left;
   margin-right: 5%;
 }
+.newsletter_left_section__header_content:hover{
+  color: #d4ff1f
+}
 .newsletter_left_section__header_emoji {
   display: inherit;
   font-size: 3.5rem;
+  animation: linear infinite alternate;
+  animation-name: run;
+  animation-duration: 1s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+    transform: translateX(0);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(-50%);
+  }
 }
 .newsletter_left_section__footer {
   /* deprecated */

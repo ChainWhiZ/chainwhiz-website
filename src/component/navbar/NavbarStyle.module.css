@@ -29,6 +29,9 @@
   letter-spacing: 0.03em;
   font-size: 1.25rem;
 }
+.main_nav__list a:hover{
+  color: #d4ff1f;
+}
 
 .bar {
   background: #d4ff1f;
