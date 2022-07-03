@@ -77,7 +77,14 @@
   border: 1px solid white;
   font-weight: 600;
 }
-
+.right_main_div__button:first-child:hover{
+  background: #bdc0b0;
+  color: black;
+}
+.right_main_div__button:last-child:hover{
+  background: black;
+  color: white;
+}
 .highlighted {
   background: #d4ff1f;
   border: 1px solid #d4ff1f;
@@ -120,6 +127,10 @@
   border-radius: 6px;
   border: 1px solid black;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+.divider_main__button:hover{
+  background:#d4ff1f ;
+  color: black;
 }
 @media only screen and (max-width: 600px) {
   .left_main_div,

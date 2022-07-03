@@ -83,6 +83,14 @@
   border: 1px solid #d4ff1f;
   color: black;
 }
+.left_main_div__button:first-child:hover{
+  background: #d4ff1f;
+  color: black;
+}
+.left_main_div__button:last-child:hover{
+  background: black;
+  color: white;
+}
 
 /* Divider Style */
 .divider_main {
@@ -125,7 +133,10 @@
   border: 1px solid black;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
 }
-
+.divider_main__button:hover{
+  background:#d4ff1f ;
+  color: black;
+}
 /* For mobile and bigger screens */
 
 /*  */

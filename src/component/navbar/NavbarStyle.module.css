@@ -1,15 +1,19 @@
 .main_header {
   width: 100%;
+  position: sticky;
+  top:0;
+  z-index: 2;
 }
 .main_header__icon {
   display: inline-block;
   vertical-align: middle;
   width: 15%;
   margin: 0 auto;
+  margin-right: 4%;
 }
 .main_nav__lists {
   display: inline-block;
-  text-align: center;
+  text-align: right;
   vertical-align: middle;
   width: 75%;
 }

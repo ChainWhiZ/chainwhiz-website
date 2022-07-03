@@ -39,10 +39,9 @@ const Navbar = () => {
             </li>
           </>
         </ul>
-      </div>
-      <div></div>
-      <div>
+        <div>
         <hr className={classes.bar}></hr>
+      </div>
       </div>
     </>
   );
