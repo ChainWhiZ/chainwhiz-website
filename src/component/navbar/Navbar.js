@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./NavbarStyle.module.css";
+import Image from "next/image";
 import SideMenu from "./SideBar";
 const Navbar = () => {
   const [hide, setHide] = useState(true);
@@ -19,13 +20,10 @@ const Navbar = () => {
             &#8801;
           </p>
         </div>
-        {!hide ? <SideMenu show={hide}/> : null}
+        {!hide ? <SideMenu show={hide} /> : null}
         <ul className={classes.main_nav__lists}>
           <li className={classes.main_nav__list}></li>
           <>
-            <li className={classes.main_nav__list}>
-              <a href="https://app.chainwhiz.app">Launch App</a>
-            </li>
             <li className={classes.main_nav__list}>
               <a href="https://chainwhiz.substack.com/">Newsletter </a>
             </li>
@@ -37,11 +35,19 @@ const Navbar = () => {
             <li className={classes.main_nav__list}>
               <a href="https://www.chainwhiz.app/Disclaimer.pdf">Disclaimer </a>
             </li>
+            <li className={`${classes.main_nav__list}`}>
+              <a
+                className={`${classes.main_nav__list_launch_app}`}
+                href="https://app.chainwhiz.app"
+              >
+                Launch App
+              </a>
+            </li>
           </>
         </ul>
         <div>
-        <hr className={classes.bar}></hr>
-      </div>
+          <hr className={classes.bar}></hr>
+        </div>
       </div>
     </>
   );
