@@ -5,11 +5,13 @@ import Divider from "./Divider";
 const About = () => {
   return (
     <>
+    <div className={classes.about_main}>
     <LeftSection classes={classes}/>
     <div className={classes.right_main_div}>
       <img src="./chainwhiz-assests/about-assests/man.png" />
     </div>
     <Divider classes={classes}/>
+    </div>
     </>
   );
 };

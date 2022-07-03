@@ -5,8 +5,8 @@ const RightSection = ({ classes }) => {
       <div className={classes.right_main_div}>
         <div className={classes.right_main_div__header}>
           <p className={classes.right_main_div__header_content}>
-            Connecting <span>businesses, project-owners </span> with{" "}
-            <span>independent devs.</span>
+            Connecting <span>Protocols</span> and <span>DAOs </span> with{" "}
+            <span>builders.</span>
           </p>
         </div>
         <ul className={classes.right_main_div__elements}>

@@ -1,7 +1,12 @@
+.business_main_div{
+  background-color: #0e0e0e;
+}
 .right_main_div {
+  background-color: #0e0e0e;
   vertical-align: middle;
   display: inline-block;
-  width: 50%;
+  width: 45%;
+  margin-left: 4%;
 }
 .left_main_div {
   display: inline-block;
@@ -16,23 +21,27 @@
   vertical-align: middle;
 }
 .right_main_div__header {
-  margin-top: 15%;
+  background-color: #0e0e0e;
+  margin-top: 19%;
   text-align: center;
 }
 .right_main_div__header_content {
+  background-color: #0e0e0e;
   font-weight: 700;
-  font-size: 3.25rem;
+  font-size: 2.5rem;
   text-align: left;
   margin: 0 auto;
   padding: 0 2%;
   width: 90%;
   line-height: 8vh;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .right_main_div__header_content span {
-  color: yellowgreen;
+  background-color: #0e0e0e;
+  color: #d4ff1f;
 }
 .right_main_div__elements {
+  background-color: #0e0e0e;
   margin: 0;
   margin-left: 6%;
   padding: 0 2%;
@@ -43,6 +52,7 @@
 }
 
 .right_main_div__element {
+  background-color: #0e0e0e;
   padding-top: 5%;
   font-weight: 500;
   line-height: inherit;
@@ -51,12 +61,15 @@
 }
 
 .right_main_div__buttons {
+  background-color: #0e0e0e;
   margin: 0;
   padding: 0;
   padding-top: 7.5%;
 }
 
 .right_main_div__button {
+  font-size: 1rem;
+  background-color: #0e0e0e;
   padding: 1% 3.5%;
   margin: 0 7.5%;
   margin-right: 3%;
@@ -66,8 +79,8 @@
 }
 
 .highlighted {
-  background: yellowgreen;
-  border: 1px solid yellowgreen;
+  background: #d4ff1f;
+  border: 1px solid #d4ff1f;
   color: black;
 }
 
@@ -78,9 +91,9 @@
   width: 100%;
   color: black;
   font-weight: 500;
-  font-size: 2rem;
-  background: yellowgreen;
-  border: 1px solid yellowgreen;
+  font-size: 1.5rem;
+  background: #d4ff1f;
+  border: 1px solid #d4ff1f;
   text-align: center;
 }
 .divider_main__icon {
@@ -91,6 +104,7 @@
   margin-right: 4%;
 }
 .divider_main__content {
+  color: black;
   background: inherit;
   display: inline-block;
   vertical-align: middle;

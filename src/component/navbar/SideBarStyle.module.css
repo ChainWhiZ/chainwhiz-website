@@ -1,6 +1,6 @@
 .sidebar_main{
     z-index: 1;
-    position: absolute;
+    position: sticky;
     height: 80%;
     width: 100%;
 }
@@ -8,9 +8,10 @@
 .sidebar__lists{
     margin: 0 auto;
     text-align: center;
+    padding-top: 15%;
 }
 .sidebar__list{
-    margin-bottom: 30%;
+    margin-bottom: 18%;
     font-size: 1.5rem;
     font-weight: 600;
 }

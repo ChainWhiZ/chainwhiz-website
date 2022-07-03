@@ -5,7 +5,7 @@ const LeftSection = ({classes}) => {
       <div className={classes.left_main_div}>
         <div className={classes.left_main_div__header}>
           <p className={classes.left_main_div__header_uper}>
-          A bounty marketplace for protocols, builders, and communities.
+          A bounty marketplace for Web3 Protocols, builders, and communities.
           </p>
           <p className={classes.left_main_div__header_lower}>
           Now on Polygon!
