@@ -21,7 +21,7 @@ const Newsletter = () => {
             <p className={classes.newsletter_left_section__header_content}>
               Subscribe Now
             </p>
-            <p className={classes.newsletter_left_section__header_emoji}>➡️</p>
+            <p className={classes.newsletter_left_section__header_emoji}> 👈</p>
           </div>
           <div className={classes.newsletter_left_section__footer}>
             <p className={classes.newsletter_left_section__footer_content}>

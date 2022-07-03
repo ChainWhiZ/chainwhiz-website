@@ -108,6 +108,7 @@
   font-size: 5vh;
   display: inline-block;
   vertical-align: middle;
+  text-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   margin-right: 4%;
 }
 .divider_main__content {
