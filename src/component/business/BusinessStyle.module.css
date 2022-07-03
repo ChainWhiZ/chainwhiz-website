@@ -132,6 +132,7 @@
 .divider_main__button:hover{
   background:#d4ff1f ;
   color: black;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
 }
 @media only screen and (max-width: 600px) {
   .left_main_div,

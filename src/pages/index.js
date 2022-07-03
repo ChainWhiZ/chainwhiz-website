@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Chainwhiz</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charSet="utf-8" />
         <meta name="theme-color" content="#d4ff1f" />
         <meta
           key="description"
@@ -28,7 +29,7 @@ export default function Home() {
         <meta
           key="og:image"
           name="og:image"
-          content="https://i.ibb.co/1TvVxjX/Chainwhiz-social.jpeg"
+          content={"https://i.ibb.co/1TvVxjX/Chainwhiz-social.jpeg"}
         />
         <meta key="og:image:alt" name="og:image:alt" content="Chainwhiz" />
         <meta key="og:locale" name="og:locale" content="en_US" />
