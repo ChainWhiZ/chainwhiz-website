@@ -35,7 +35,11 @@
   margin-top: 5%;
   text-align: center;
 }
+.journey_upper_button__cont a {
+  background-color: #d4ff1f;
+}
 .journey_upper_button__cont button {
+  cursor: pointer;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -50,8 +54,9 @@
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
   transform: scale(1.2);
 }
-.journey_upper_button__cont button:hover{
-  background:#d4ff1f ;
+.journey_upper_button__cont button:hover,
+.journey_upper_button__cont a:hover {
+  background: #d4ff1f;
   color: black;
 }
 .journey_upper_footnote {
@@ -78,6 +83,12 @@
   font-size: 1.2rem;
   vertical-align: middle;
 }
+.journey_down_section p a:hover {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🦄</text></svg>")
+      16 0,
+    auto;
+  color: #d4ff1f;
+}
 .journey_down_section p:first-child {
   font-weight: 800;
   font-size: 1.5rem;
@@ -89,19 +100,19 @@
   border: 1.6px solid #d4ff1f;
 }
 @media only screen and (max-width: 600px) {
-  .journey_main{
-      display: none;
+  .journey_main {
+    display: none;
   }
-  .bar{
+  .bar {
     display: block;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .journey_main{
-      display: none;
+  .journey_main {
+    display: none;
   }
-  .bar{
+  .bar {
     display: block;
   }
 }

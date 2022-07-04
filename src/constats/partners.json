@@ -1,15 +1,5 @@
 [
   {
-    "name": "Lumos labs",
-    "image": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs.png",
-    "banner": "./chainwhiz-assests/partners-assests/lumos-labs/lumos-labs-cover.jpeg",
-    "bannerType": "image",
-    "description": "Lumos Labs is a Singapore-based innovation management firm that specializes in running technology open innovation programs.",
-    "discordLink": "",
-    "websiteLink": "https://www.lumoslabs.co/",
-    "twitterLink": "https://twitter.com/LabsLumos"
-  },
-  {
     "name": "Dev Protocol",
     "image": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol.png",
     "banner": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol-cover.mp4",
@@ -30,13 +20,33 @@
     "twitterLink": "https://twitter.com/LabsLumos"
   },
   {
-    "name": "Dev Protocol",
-    "image": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol.png",
-    "banner": "./chainwhiz-assests/partners-assests/dev-protocol/dev-protocol-cover.mp4",
-    "bannerType": "video",
-    "description": "Dev Protocol is the core of the Decentralized Creator Economy, completely on-chain, 100% composable middleware protocol.",
-    "discordLink": "https://discord.com/invite/VwJp4KM",
-    "websiteLink": "https://devprotocol.xyz/",
-    "twitterLink": "https://twitter.com/devprtcl"
+    "name": "Web3Brdige",
+    "image": "./chainwhiz-assests/partners-assests/web3bridge/web3bridge.jpeg",
+    "banner": "./chainwhiz-assests/partners-assests/web3bridge/web3bridge-cover.jpeg",
+    "bannerType": "image",
+    "description": "Exploring cohort based model to train web3 developers in Africa.",
+    "discordLink": "",
+    "websiteLink": "https://www.web3bridge.com/",
+    "twitterLink": "https://twitter.com/Web3Bridge"
+  },
+  {
+    "name": "Islandview Digital",
+    "image": "./chainwhiz-assests/partners-assests/islandview-digital/islandview-digital.jpeg",
+    "banner": "./chainwhiz-assests/partners-assests/islandview-digital/islandview-digital-cover.jpeg",
+    "bannerType": "image",
+    "description": "Metaverse Real Estate Development Entity",
+    "discordLink": "",
+    "websiteLink": "",
+    "twitterLink": "https://twitter.com/IslandVDigital"
+  },
+  {
+    "name": "VoiceDAO",
+    "image": "./chainwhiz-assests/partners-assests/voicedao/voicedao.jpeg",
+    "banner": "./chainwhiz-assests/partners-assests/voicedao/voicedao-cover.jpeg",
+    "bannerType": "image",
+    "description": "Learn About Web3 and Get a Job in Web3",
+    "discordLink": "https://discord.com/invite/3wcPMj5YBT",
+    "websiteLink": "https://www.voicedao.fun/",
+    "twitterLink": "https://twitter.com/VoiceDao"
   }
 ]

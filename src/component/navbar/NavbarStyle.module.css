@@ -53,6 +53,9 @@
 .main_nav__list_launch_app:hover{
   background-color: #d4ff1f;
   color: black !important;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>")
+  16 0,
+auto;
 }
 
 @media only screen and (max-width: 992px) {

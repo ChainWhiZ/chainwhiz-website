@@ -18,9 +18,9 @@ const Newsletter = () => {
             </p>
           </div>
           <div className={classes.newsletter_left_section__header}>
-            <p className={classes.newsletter_left_section__header_content}>
+            <a href="https://chainwhiz.substack.com/"><p className={classes.newsletter_left_section__header_content}>
               Subscribe Now
-            </p>
+            </p></a>
             <p className={classes.newsletter_left_section__header_emoji}> 👈</p>
           </div>
           <div className={classes.newsletter_left_section__footer}>
