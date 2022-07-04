@@ -1,7 +1,7 @@
 .main_header {
   width: 100%;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 2;
 }
 .main_header__icon {
@@ -10,6 +10,12 @@
   width: 15%;
   margin: 0 auto;
   margin-right: 4%;
+  transition: all 0.3s ease-in-out 0s;
+}
+.main_header__icon:hover {
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out 0s;
 }
 .main_nav__lists {
   display: inline-block;
@@ -30,8 +36,7 @@
   font-size: 1.25rem;
 }
 
-
-.main_nav__list a:hover{
+.main_nav__list a:hover {
   color: #d4ff1f;
   transform: scale(1.5);
 }
@@ -41,33 +46,33 @@
   height: 0.3vh;
   border: 2.5px solid #d4ff1f;
 }
-.main_nav__list_launch_app{
+.main_nav__list_launch_app {
   border: 1px solid;
   padding: 6%;
   border-radius: 6px;
-  border: 1px solid #d4ff1f ;
+  border: 1px solid #d4ff1f;
   background: black;
   color: #d4ff1f;
   font-weight: 500;
 }
-.main_nav__list_launch_app:hover{
+.main_nav__list_launch_app:hover {
   background-color: #d4ff1f;
   color: black !important;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>")
-  16 0,
-auto;
+      16 0,
+    auto;
 }
 
 @media only screen and (max-width: 992px) {
   .main_header__icon {
     display: none;
   }
-  .main_nav__ham{
+  .main_nav__ham {
     display: block;
     width: 100%;
   }
   /* For mobile phones: */
-  .main_nav__ham p{
+  .main_nav__ham p {
     width: 100%;
     font-size: 4.5rem;
     vertical-align: middle;
@@ -75,7 +80,7 @@ auto;
     /* vertical-align: bottom; */
     display: inline-block;
   }
-  .main_header__icon{
+  .main_header__icon {
     height: inherit;
     width: 40%;
     vertical-align: middle;
@@ -89,7 +94,7 @@ auto;
     text-align: center;
     display: none;
   }
-  .main_nav__list{
+  .main_nav__list {
     text-align: center;
     vertical-align: middle;
     font-size: 0.75rem;
@@ -102,13 +107,12 @@ auto;
     display: inline-block;
     text-align: right;
   }
-  .main_header__icon{
+  .main_header__icon {
     height: inherit;
     width: 25%;
     vertical-align: bottom;
   }
   .main_nav__lists .main_nav__list {
-    
     font-size: 1rem;
     display: block;
     width: 100%;
