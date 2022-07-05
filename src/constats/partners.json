@@ -58,5 +58,25 @@
     "discordLink": "",
     "websiteLink": "t.me/thephoenixguild",
     "twitterLink": ""
+  },
+  {
+    "name": "Meme DAO",
+    "image": "./chainwhiz-assests/partners-assests/memedao/memedao.jpeg",
+    "banner": "./chainwhiz-assests/partners-assests/memedao/memedao-banner.png",
+    "bannerType": "image",
+    "description": "Memes for everyone, by everyone",
+    "discordLink": "https://discord.com/invite/HkVgMBrB39",
+    "websiteLink": "",
+    "twitterLink": ""
+  },
+  {
+    "name": "Dapplaystore",
+    "image": "./chainwhiz-assests/partners-assests/dapp-playstore/dapp-playstore.jpeg",
+    "banner": "./chainwhiz-assests/partners-assests/dapp-playstore/dapp-playstore-banner.jpeg",
+    "bannerType": "image",
+    "description": "First Dapp marketplace that connects to all web3 applications. Every network, one platform",
+    "discordLink": "https://discord.com/invite/BdvXqzzb2V",
+    "websiteLink": "https://www.dapp-playstore.com/",
+    "twitterLink": "https://twitter.com/dapplaystoreapp"
   }
 ]
