@@ -48,5 +48,15 @@
     "discordLink": "https://discord.com/invite/3wcPMj5YBT",
     "websiteLink": "https://www.voicedao.fun/",
     "twitterLink": "https://twitter.com/VoiceDao"
+  },
+  {
+    "name": "Phoenix Guild",
+    "image": "./chainwhiz-assests/partners-assests/phoenixguild/phoenixguild.jpeg",
+    "banner": "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E",
+    "bannerType": "image",
+    "description": "A group of women who want to help other women in tech and non-tech roles empower and educate themselves in order to utilise the opportunities in WEB3!",
+    "discordLink": "",
+    "websiteLink": "t.me/thephoenixguild",
+    "twitterLink": ""
   }
 ]

@@ -29,7 +29,7 @@ export default function Home() {
         <meta
           key="og:image"
           name="og:image"
-          content={"https://i.ibb.co/1TvVxjX/Chainwhiz-social.jpeg"}
+          content={"https://iili.io/j5IbyB.jpg"}
         />
         <meta key="og:image:alt" name="og:image:alt" content="Chainwhiz" />
         <meta key="og:locale" name="og:locale" content="en_US" />
