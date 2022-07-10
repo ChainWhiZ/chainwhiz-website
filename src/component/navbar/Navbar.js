@@ -22,7 +22,6 @@ const Navbar = () => {
         </div>
         {!hide ? <SideMenu show={hide} /> : null}
         <ul className={classes.main_nav__lists}>
-          <li className={classes.main_nav__list}></li>
           <>
             <li className={classes.main_nav__list}>
               <a href="https://chainwhiz.substack.com/">Newsletter </a>
