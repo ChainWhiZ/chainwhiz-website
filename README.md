@@ -13,7 +13,7 @@ A bounty marketplace for Web3 Protocols, builders, and communities.
 
 ## Contrubtion Guidelines
 1. Create an issue.
-2. Clone the repo on your local machine.
+2. Clone the repo on your local machine. Make sure its the `main` branch
 3. Make necessary changes. 
 4. Create a separate branch in the format `<issue-number>-<feature-name>`
 5. Make sure include a brief description.
