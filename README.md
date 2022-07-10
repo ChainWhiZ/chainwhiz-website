@@ -1,5 +1,5 @@
 # Welcome to the landing page of Chainwhiz
-
+![banner](https://iili.io/j5IbyB.jpg)
 This is the face of Chainwhiz from which one can enter the dApp and host bounties or explore different reading materials we have in the page.
 
 ## What is Chainwhiz?
