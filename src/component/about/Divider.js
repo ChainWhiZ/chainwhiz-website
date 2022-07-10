@@ -12,7 +12,7 @@ const Divider = ({ classes }) => {
         {emoji}
       </p>
       <p className={classes.divider_main__content}>
-        Pick up a bounty and bring your ‘A’ game to the coding table.
+        Instantly start earning crypto by discovering amazing bounties.
       </p>
       <a href="https://www.app.chainwhiz.app/">
         <button className={classes.divider_main__button}>Get Started</button>

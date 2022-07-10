@@ -11,13 +11,15 @@ const RightSection = ({ classes }) => {
         </div>
         <ul className={classes.right_main_div__elements}>
           <li className={classes.right_main_div__element}>
-            Post issues and dev-oriented jobs as bounties.
+            Host bounties from fields of design, development, marketing, etc.
           </li>
           <li className={classes.right_main_div__element}>
-            Solve open source bounties and receive payments.{" "}
+            Permissioned, Standard, Upskilling - We support hosting all types of
+            bounties.{" "}
           </li>
           <li className={classes.right_main_div__element}>
-            Earn tokens by helping curate the best solution to a bounty.
+            Let your community decide what is best with the power of solution
+            voting.
           </li>
         </ul>
         <div className={classes.right_main_div__buttons}>
@@ -35,4 +37,4 @@ const RightSection = ({ classes }) => {
   );
 };
 
-export default RightSection
+export default RightSection;

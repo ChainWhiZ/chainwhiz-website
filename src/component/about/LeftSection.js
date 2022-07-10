@@ -12,9 +12,9 @@ const LeftSection = ({classes}) => {
           </p>
           </div>
           <ul className={classes.left_main_div__elements}>
-              <li className={classes.left_main_div__element}>Post issues and dev-oriented jobs as bounties.</li>
-              <li className={classes.left_main_div__element}>Solve open source bounties and receive payments. </li>
-              <li className={classes.left_main_div__element}>Earn tokens by helping curate the best solution to a bounty.</li>
+              <li className={classes.left_main_div__element}>Host bounties from all domains.</li>
+              <li className={classes.left_main_div__element}>Contribute to bounties and get paid. </li>
+              <li className={classes.left_main_div__element}>Participate in solution validations by voting.</li>
           </ul>
           <div className={classes.left_main_div__buttons}>
               <a href="https://www.app.chainwhiz.app/"><button className={classes.left_main_div__button}>Explore Chainwhiz</button></a>
