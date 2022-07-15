@@ -13,10 +13,12 @@
 
 /* Right Main Div STyle */
 .right_main_div {
+  background: none;
   display: inline-block;
   width: 50%;
 }
 .right_main_div img {
+  background: #0e0e0e;
   background-size: cover;
   width: 100%;
   vertical-align: top;

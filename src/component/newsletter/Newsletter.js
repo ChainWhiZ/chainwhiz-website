@@ -30,7 +30,7 @@ const Newsletter = () => {
           </div>
         </div>
         <div className={classes.newsletter_right_section}>
-          <img src="./chainwhiz-assests/newsletter-assests/newsletter_gif.gif" />
+          <img src="./chainwhiz-assests/newsletter-assests/newsletter_gif.png" />
         </div>
       </div>
     </>
