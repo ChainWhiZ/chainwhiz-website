@@ -4,7 +4,7 @@
 }
 
 .newsletter_header {
-  margin-bottom: 9%;
+  /* margin-bottom: 9%; */
 }
 .newsletter_header__content {
   text-align: center;
@@ -17,13 +17,13 @@
   display: inline-block;
   width: 50%;
   text-align: center;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 .newsletter_right_section {
   display: inline-block;
   width: 50%;
   text-align: center;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 .newsletter_right_section img {
   object-fit: fill;
