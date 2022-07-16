@@ -16,10 +16,19 @@
   vertical-align: top;
 }
 .left_main_div img{
+  animation: MoveUpDown 2s linear infinite;
   background-color: #0e0e0e;
   background-size: cover;
   width: 100%;
   vertical-align: middle;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 .right_main_div__header {
   background-color: #0e0e0e;
