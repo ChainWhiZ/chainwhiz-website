@@ -7,7 +7,7 @@ const Business = () => {
     <>
       <div className={classes.business_main_div}>
         <div className={classes.left_main_div}>
-          <img src="./chainwhiz-assests/business-assests/globe.png" />
+          <img src="./chainwhiz-assests/business-assests/connect.png" />
         </div>
         <RightSection classes={classes} />
         <Divider classes={classes} />
